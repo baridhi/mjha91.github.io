@@ -89,7 +89,8 @@
           <p class="mb-2" style="text-align:justify">
             I am pursuing PhD in Finance at Washington University.
             I enjoy exploring how agency problems play out in shareholders' and managers' behavior.
-            My recent research shows that having a stake in bonds matter for investor attention.
+            My recent research shows that hedge funds activists appeal to shareholders who hold 
+						having a stake in bonds matter for investor attention.
           </p>
 	  <h5 class="mb-4"><a href="pdf/ManishJha.pdf" target="_blank">Curriculum Vitae</a></h5>
           <!-- <ul class="list-inline list-social-icons mb-0">
@@ -133,7 +134,16 @@
         <div class="my-auto">
           <h2 class="mb-3">Research</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+					<div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Catching the conscience of kings: evidence and impact of activists persuading investors</h3>
+              <div class="subheading mb-3"> <a href="https://mjha91.github.io/research/proxytext" target="_blank">Job Market Paper</a>
+              </div>
+              <p style="text-align:justify">Mutual funds increasingly hold the key to proxy fight outcomes. This paper studies whether hedge fund activists cater to mutual funds preferences in proxy fights. Using fund families historical shareholder proposal votes, I construct a machine learning model to measure the fund family’s preference in terms of phrases that affect their voting choice. I find that activists are more likely to use phrases that corresponds to preferences of major shareholders in the target firm. Proxy attacks which speak to the major shareholders preference get more attention, and better voting outcome for the activist. Thus shareholders implicit preference creep in firm's corporate governance via hedge fund activism.</p>
+            </div>
+          </div>
+
+					<div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Governance Spillover: Do Bonds Affect Equity Monitoring?</h3>
               <div class="subheading mb-3">with <a href="https://http://www.gormley.info/" target="_blank">Todd Gormley</a> and
@@ -146,11 +156,25 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Is finance good? A study across time and space </h3>
+              <h3 class="mb-0">Does finance benefit society? A language embedding approach</h3>
               <div class="subheading mb-3">with <a href="https://economics.wustl.edu/people/hongyi-liu" target="_blank">Hongyi Liu</a> and
                 <a href="http://apps.olin.wustl.edu/faculty/manela/" target="_blank">Asaf Manela</a>
               </div>
-              <p style="text-align:justify">Work in Progress </p>
+              <p style="text-align:justify">We measure popular sentiment toward finance using a computational
+								linguistics approach applied to millions of books published in eight countries
+								over hundreds of years. We document persistent differences in finance sentiment
+								across countries despite ample time-series variation.
+								Finance sentiment declines after epidemics and earthquakes,
+								but rises following droughts, floods, and landslides.
+								These heterogeneous effects of natural disasters suggest finance sentiment
+								responds differently to the manifestation of uninsured versus insured risks.
+								Using local projections we find that positive shocks to finance sentiment
+								have positive and persistent effects on economic growth.
+								Our estimates predict a contraction in finance sentiment due to the COVID-19
+								pandemic that will exacerbate its long-term economic damage.</p>
+								<img class="research_img" src="img/score.png" alt="">
+								<img class="research_img" src="img/score.svg" alt="">
+
             </div>
           </div>
 
@@ -158,8 +182,13 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">What do boards say about executive compensation? </h3>
               <div class="subheading mb-3">with <a href="https://jindal.utdallas.edu/faculty/xiaoxiao-tang" target="_blank">Xiaoxiao Tang</a></div>
-              <p style="text-align:justify">Compensation contracts incentivize and retain executives. However, the roles played by these factors have different theoretical repercussions for executive pay. Using natural language processing and unsupervised machine learning, we extract these features from SEC filings and test how these motives play out in observed compensation contracts. We are currently looking at how well the scores predict theoretical findings in compensation literature. Below we list top 20 words similar to align and retain, extracted via a shallow neural network (word2vec). </p>
-              <img class="research_img" src="img/align_retain.png" alt="">
+              <img class="research_img_small" src="img/align_retain.png" alt="">
+							<p style="text-align:justify">Compensation contracts incentivize and retain executives.
+								However, the roles played by these factors have different theoretical repercussions for executive pay.
+								Using natural language processing and unsupervised machine learning, we extract these features from SEC filings and test how these motives play out in observed compensation contracts.
+								We are currently looking at how well the scores predict theoretical findings in compensation literature. </p>
+								<!-- We use a shallow neural network (word2vec) to extract words that are similar to align and retain. -->
+
             </div>
           </div>
 					<!--
