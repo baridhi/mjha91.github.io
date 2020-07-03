@@ -94,10 +94,13 @@
 						I use <b>Support Vector Regresion (SVR)</b> to accomplish this.
 						SVR assigns weights to phrases based on how fund family voted in the proposals,
 						I use these weights to predict their voting in the proxy attack, based on how these phrase were used in the proxy text.
-						These weights are in line with fund families' proxy guidelines documents. Figure below shows how many times certain
-						phrases appeared in Morgan Stanley proxy guidelines, along with their SVR coeficients.
+						These weights are in line with fund families' proxy guidelines documents.
 					</p>
-					<img class="img" src="proxytext/countcoef.svg" alt="">
+
+					<figure>
+				  <img class="img" src="proxytext/countcoef.svg" alt="">
+				  <figcaption>SVR coefficient, and proxy guideline’s frequency for Morgan Stanley</figcaption>
+					</figure>
 				</div>
 			</section>
 
@@ -112,7 +115,12 @@
 						So for an attack, the activist write their text in a way to get support from fund families which own more shares.
 						Even for a fund family, the proxy text is more aligned to their preferences when they have more voting power.
 					</p>
-					<img class="img" src="proxytext/regress.svg" alt="">
+					<figure>
+				  <img class="img" src="proxytext/regress.svg" alt="">
+				  <figcaption>Bubble size represents # of observations at a particular holding;
+						corresponding predicted AMGT is the average value at that holding.</figcaption>
+					</figure>
+
 
 				</div>
 			</section>
