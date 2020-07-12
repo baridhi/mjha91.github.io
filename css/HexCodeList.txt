@@ -1,0 +1,17 @@
+
+
+
+*blue a litte green: #1F77B4
+*steel blue: #4682b4
+
+##carbon colors from ibm
+*mud blue: #3d70b2 //very simialr to blue a litte green -- current
+*bright blue: #5596e6 //looksbad
+
+
+######################################doesnt look good
+*teal from google: #00bfa5
+*cyan from google: #00b8d4 // very similar to debroome lightblue
+
+*debroome lightblue: #489cb7; darker variation from google #006e87
+*debroome red: #ff532f
